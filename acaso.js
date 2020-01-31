@@ -1,8 +1,8 @@
-const losDiv = document.getElementById('acaso');
-losDiv.style.textAlign = 'center';
-const losBtn = document.getElementById('acaso__btn');
-const losBtnReset = document.getElementById('acaso__btn--reset');
-const losAdres = document.getElementById('acaso__adres');
+const acasoDiv = document.getElementById('acaso');
+acasoDiv.style.textAlign = 'center';
+const acasoBtn = document.getElementById('acaso__btn');
+const acasoBtnReset = document.getElementById('acaso__btn--reset');
+const acasoAdress = document.getElementById('acaso__adress');
 const ewangelie = [0, 'Mt', 'Mk', 'Łk', 'J'];
 const rozdzMt = 28;
 const rozdzMk = 16;
@@ -13,7 +13,7 @@ const wersMt = [0,25,23,17,25,48,34,29,34,38,42,30,50,58,36,39,28,27,35,30,34,46
 const wersMk = [0,45,28,35,41,43,56,37,38,50,52,33,44,37,72,47,20];
 const wersLk = [0,80,52,38,44,39,49,50,56,62,42,54,59,35,35,32,31,37,43,48,47,38,71,56,53];
 const wersJ = [0,51,25,36,54,47,71,53,59,41,42,57,50,38,31,27,33,26,40,42,31,25];
-const wersety = [0,wersMt,wersMk,wersLk,wersJ];
+const wersety = [0, wersMt, wersMk, wersLk, wersJ];
 let wynik = [];
   
 const losuj = () => {
@@ -25,26 +25,8 @@ const losuj = () => {
 
   losowyRozdzial = Math.floor(Math.random() * rozdzialy[losowaEwangelia] + 1);
   losowyWers = Math.floor(Math.random() * wersety[losowaEwangelia][losowyRozdzial] + 1);
-  
 
-  // if (losowaEwangelia === 1) {
-  //   losowyRozdzial = Math.floor(Math.random() * rozdzMt + 1);
-  //   losowyWers = Math.floor(Math.random() * wersyMt[losowyRozdzial] + 1);
-  // }
-  // if (losowaEwangelia === 2) {
-  //   losowyRozdzial = Math.floor(Math.random() * rozdzMk + 1);
-  //   losowyWers = Math.floor(Math.random() * wersyMk[losowyRozdzial] + 1);
-  // }
-  // if (losowaEwangelia === 3) {
-  //   losowyRozdzial = Math.floor(Math.random() * rozdzLk + 1);
-  //   losowyWers = Math.floor(Math.random() * wersyLk[losowyRozdzial] + 1);
-  // }
-  // if (losowaEwangelia === 4) {
-  //   losowyRozdzial = Math.floor(Math.random() * rozdzJ + 1);
-  //   losowyWers = Math.floor(Math.random() * wersyJ[losowyRozdzial] + 1);
-  // }
-
-  losAdres.innerHTML = ewangelie[losowaEwangelia]+' '+losowyRozdzial+','+losowyWers;
+  acasoAdress.innerHTML = ewangelie[losowaEwangelia]+' '+losowyRozdzial+','+losowyWers;
   wynik.push(losowaEwangelia, losowyRozdzial, losowyWers); 
   console.log(wynik)
 
@@ -52,8 +34,8 @@ const losuj = () => {
 
 const reset = () => {
   wynik = [];
-  losAdres.innerHTML = 'Słowo a caso';
+  acasoAdress.innerHTML = 'Słowo a caso';
 };
 
-losBtn.addEventListener('click', losuj);
-losBtnReset.addEventListener('click', reset);
+acasoBtn.addEventListener('click', losuj);
+acasoBtnReset.addEventListener('click', reset);
