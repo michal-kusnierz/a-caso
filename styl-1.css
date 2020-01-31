@@ -1,15 +1,81 @@
-BODY {background-color : #E6E6FA;}
-H1 {color : #301010; font-size : 20pt; font-weight : bold; font-family : Times New Roman,Arial CE,Arial; text-align : center;}
-H2 {color : #301010; font-size : 16pt; font-weight : bold; font-family : Times New Roman,Arial CE,Arial; text-align : center;}
-H3 {color : #301010; font-size : 36pt; font-weight : bold; font-family : Times New Roman,Arial CE,Arial; text-align : center;}
-P.kl1 {font-family : Times New Roman,Arial CE,Arial; font-size : 14pt; font-weight : bold; color : #301010; text-align : left;}
-P.kl4 {font-family : Times New Roman,Arial CE,Arial; font-size : 9pt; color : #301010; text-align : left;}
-P.kl3 {font-family : Times New Roman,Arial CE,Arial; font-size : 9pt; font-weight : bold; color : #301010; text-align : center;}
-P.kl5 {font-family : Times New Roman,Arial CE,Arial; font-size : 9pt; font-weight : bold; color : #301010; text-align : left;}
-P.kl2 {font-family : Times New Roman,Arial CE,Arial; font-weight:bold;font-size :  8pt; color :#0000CC; text-align : left;}
+body {
+  background-color: #e6e6fa;
+}
+h1 {
+  color: #301010;
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: Times New Roman, Arial CE, Arial;
+  text-align: center;
+}
+h2 {
+  color: #301010;
+  font-size: 16pt;
+  font-weight: bold;
+  font-family: Times New Roman, Arial CE, Arial;
+  text-align: center;
+}
+h3 {
+  color: #301010;
+  font-size: 36pt;
+  font-weight: bold;
+  font-family: Times New Roman, Arial CE, Arial;
+  text-align: center;
+}
+p.kl1 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #301010;
+  text-align: left;
+}
+p.kl4 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-size: 9pt;
+  color: #301010;
+  text-align: left;
+}
+p.kl3 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-size: 9pt;
+  font-weight: bold;
+  color: #301010;
+  text-align: center;
+}
+p.kl5 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-size: 9pt;
+  font-weight: bold;
+  color: #301010;
+  text-align: left;
+}
+p.kl2 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-weight: bold;
+  font-size: 8pt;
+  color: #0000cc;
+  text-align: left;
+}
 
-sup {font-size : 9pt; font-weight : bold; color : #FF0000;}
-A:link {color : #0000AA; text-decoration : none;}
-A:visited {color : #0000AA; text-decoration : none;}
-A:active {color : #e25885; text-decoration : none;}
-A:hover {color : #ff0000; font-size : 8pt; text-decoration : underline;}
+sup {
+  font-size: 9pt;
+  font-weight: bold;
+  color: #ff0000;
+}
+a:link {
+  color: #0000aa;
+  text-decoration: none;
+}
+a:visited {
+  color: #0000aa;
+  text-decoration: none;
+}
+a:active {
+  color: #e25885;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff0000;
+  font-size: 8pt;
+  text-decoration: underline;
+}

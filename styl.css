@@ -1,18 +1,96 @@
-BODY {background-color : #ffffdd;}
-H1 {color : #301010; font-size : 20pt; font-weight : bold; font-family : Times New Roman,Arial CE,Arial; text-align : center;}
-H2 {color : #301010; font-size : 16pt; font-weight : bold; font-family : Times New Roman,Arial CE,Arial; text-align : center;}
-H3 {color : #301010; font-size : 36pt; font-weight : bold; font-family : Times New Roman,Arial CE,Arial; text-align : center;}
-P.kl1 {font-family : Times New Roman,Arial CE,Arial; font-size : 14pt; font-weight : bold; color : #901010; text-align : left;}
-P.kl2 {font-family: arial; font-weight:bold; font-size : 9pt; color : #000000; text-align : left;}
-P.kl3 {font-family : Times New Roman,Arial CE,Arial; font-size : 9pt; font-weight : bold; color : #301010; text-align : center;}
-P.kl4 {font-family: arial; font-weight:bold; font-size :  7pt; font-weight : bold; color : #008800; text-align : left;}
-P.kl5 {font-family : Times New Roman,Arial CE,Arial; font-size : 14pt; font-weight : bold; color : #FF8800; text-align : center;}
-P.kl6 {font-family : Times New Roman,Arial CE,Arial; font-size : 12pt; font-weight : bold; color : #0000CC; text-align : left;}
-P.kl7 {font-family : Times New Roman,Arial CE,Arial; font-size : 14pt; font-weight : bold; color : #FF4400; text-align : center;}
+body {
+  background-color: #ffffdd;
+}
+h1 {
+  color: #301010;
+  font-size: 20pt;
+  font-weight: bold;
+  font-family: Times New Roman, Arial CE, Arial;
+  text-align: center;
+}
+h2 {
+  color: #301010;
+  font-size: 16pt;
+  font-weight: bold;
+  font-family: Times New Roman, Arial CE, Arial;
+  text-align: center;
+}
+h3 {
+  color: #301010;
+  font-size: 36pt;
+  font-weight: bold;
+  font-family: Times New Roman, Arial CE, Arial;
+  text-align: center;
+}
+p.kl1 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #901010;
+  text-align: left;
+}
+p.kl2 {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 9pt;
+  color: #000000;
+  text-align: left;
+}
+p.kl3 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-size: 9pt;
+  font-weight: bold;
+  color: #301010;
+  text-align: center;
+}
+p.kl4 {
+  font-family: arial;
+  font-weight: bold;
+  font-size: 7pt;
+  font-weight: bold;
+  color: #008800;
+  text-align: left;
+}
+p.kl5 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #ff8800;
+  text-align: center;
+}
+p.kl6 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #0000cc;
+  text-align: left;
+}
+p.kl7 {
+  font-family: Times New Roman, Arial CE, Arial;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #ff4400;
+  text-align: center;
+}
 
-sup {font-size : 9pt; font-weight : bold; color : #FF0000;}
-A:link {color : #008800; text-decoration : none;}
-A:visited {color : #008800; text-decoration : none;}
-A:active {color : #e25885; text-decoration : none;}
-A:hover {color : #ff0000; text-decoration : underline;}
-
+sup {
+  font-size: 9pt;
+  font-weight: bold;
+  color: #ff0000;
+}
+a:link {
+  color: #008800;
+  text-decoration: none;
+}
+a:visited {
+  color: #008800;
+  text-decoration: none;
+}
+a:active {
+  color: #e25885;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
