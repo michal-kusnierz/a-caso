@@ -23,10 +23,9 @@ const losuj = () => {
   const losowyRozdzial = Math.floor(Math.random() * rozdzialy[losowaEwangelia] + 1);
   const losowyWers = Math.floor(Math.random() * wersety[losowaEwangelia][losowyRozdzial] + 1);
 
-  acasoAdress.innerHTML = ewangelie[losowaEwangelia]+' '+losowyRozdzial+','+losowyWers;
+  acasoAdress.innerHTML = ewangelie[losowaEwangelia] + ' ' + losowyRozdzial + ',' + losowyWers;
   wynik.push(losowaEwangelia, losowyRozdzial, losowyWers); 
-  console.log(wynik)
-
+  console.log(wynik);
 };
 
 const reset = () => {
