@@ -26,11 +26,15 @@ const losuj = () => {
   acasoAdress.innerHTML = ewangelie[losowaEwangelia] + ' ' + losowyRozdzial + ',' + losowyWers;
   wynik.push(losowaEwangelia, losowyRozdzial, losowyWers); 
   console.log(wynik);
+  acasoBtnReset.style.display = 'inline-block';
+  acasoBtn.style.display = 'none';
 };
 
 const reset = () => {
   wynik = [];
   acasoAdress.innerHTML = 'Słowo a caso';
+  acasoBtnReset.style.display = 'none';
+  acasoBtn.style.display = 'inline-block';
 };
 
 acasoBtn.addEventListener('click', losuj);
