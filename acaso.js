@@ -20,11 +20,8 @@ const losuj = () => {
   if (wynik.length === 3) return;
 
   const losowaEwangelia = Math.floor(Math.random() * 4 + 1);
-  let losowyRozdzial = 0;
-  let losowyWers = 0;
-
-  losowyRozdzial = Math.floor(Math.random() * rozdzialy[losowaEwangelia] + 1);
-  losowyWers = Math.floor(Math.random() * wersety[losowaEwangelia][losowyRozdzial] + 1);
+  const losowyRozdzial = Math.floor(Math.random() * rozdzialy[losowaEwangelia] + 1);
+  const losowyWers = Math.floor(Math.random() * wersety[losowaEwangelia][losowyRozdzial] + 1);
 
   acasoAdress.innerHTML = ewangelie[losowaEwangelia]+' '+losowyRozdzial+','+losowyWers;
   wynik.push(losowaEwangelia, losowyRozdzial, losowyWers); 
