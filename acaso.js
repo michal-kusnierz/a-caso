@@ -24,7 +24,7 @@ const losuj = () => {
   let losowyWers = 0;
 
   losowyRozdzial = Math.floor(Math.random() * rozdzialy[losowaEwangelia] + 1);
-  losowyWers = Math.floor(Math.random() * wersety[losowaEwangelia] + 1);
+  losowyWers = Math.floor(Math.random() * wersety[losowaEwangelia][losowyRozdzial] + 1);
   
 
   // if (losowaEwangelia === 1) {
